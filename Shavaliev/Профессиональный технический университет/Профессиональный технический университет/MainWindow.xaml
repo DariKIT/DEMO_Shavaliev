@@ -1,0 +1,25 @@
+﻿<Window x:Class="Профессиональный_технический_университет.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Профессиональный_технический_университет"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="700" MinHeight="300" MinWidth="700" MaxHeight="500" MaxWidth="800"> 
+    <Grid Margin="0,0,2,2" Background="#FF004165">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="306*"/>
+            <RowDefinition Height="61*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="53" Margin="10,10,0,0" VerticalAlignment="Top" Width="59" Source ="Resources/logo.ico" Grid.Column="0"/>
+        <Frame Content="Frame" Name="Autorization" HorizontalAlignment="Left" Height="296" Margin="8,10,0,0" VerticalAlignment="Top" Width="447" Grid.Column="1" Navigated="Frame_Navigated" Grid.Row="0"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="455*"/>
+            <ColumnDefinition Width="136*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+    </Grid>
+</Window>
